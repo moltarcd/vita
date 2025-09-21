@@ -1,0 +1,84 @@
+├── automation-framework-vita/
+│   ├── 1zlog.txt
+│   ├── conftest.py
+│   ├── log.txt
+│   ├── pytest.ini
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── run_api_tests.py
+│   ├── run_mobile_tests.py
+│   ├── Zlog.txt
+│   ├── allure-results/
+│   │   ├── 02f98bd1-6c93-4092-ae36-fa01de57854d-result.json
+│   │   ├── 03288755-a846-461a-9560-864f1f3385fc-result.json
+│   │   ├── 0fed0fc0-f4f4-49e5-ac12-5bccb5ef9c67-result.json
+│   │   ├── 35c4f215-05ae-47d8-90a1-b3ca7d79bea5-container.json
+│   │   ├── 3a63893f-3221-43f4-9109-adb7a556edca-container.json
+│   │   ├── 5d013dc5-e2cd-4123-8c1f-124934573707-result.json
+│   │   ├── 7414a955-b205-4565-a867-d5480e291775-container.json
+│   │   ├── 7ba8714a-87af-46b4-bb3c-1e1d8b2ee0cf-container.json
+│   │   ├── 7ded5307-8e5e-4445-8cd2-94987a63ee3e-result.json
+│   │   ├── 7f05e2aa-d3f6-4073-9df4-7f4e0cded5e4-result.json
+│   │   ├── 82f3d926-2724-444f-9454-56ea093e129d-result.json
+│   │   ├── 86324f8b-cfc0-4507-97ac-dda045c5a47a-result.json
+│   │   ├── a0dc8a77-08e7-47a4-b27f-67b7911d4c67-result.json
+│   │   ├── ace6ff06-3771-4878-b65f-b61907f992c5-result.json
+│   │   ├── ae74162a-5d16-4630-bc30-78eba82dabe9-result.json
+│   │   ├── b778b04a-aca6-4cdb-b542-3e770f87d319-container.json
+│   │   ├── c5f30318-b7cc-4aba-9ad4-636f96c2c0bd-container.json
+│   │   ├── ff8773a9-7b9b-4213-a747-1849d7d267d2-result.json
+│   ├── app/
+│   │   ├── VitaQA.apk
+│   ├── docs/
+│   │   ├── create_structure.ps1
+│   │   ├── estrc.py
+│   │   ├── estructura.txt
+│   │   ├── estructura_limpia.txt
+│   │   ├── Prueba técnica QA Automation mobile-API.pdf
+│   │   ├── Swagger Petstore API - Test Collection.postman_collection.json
+│   │   ├── Video explicativo prueba appium.MP4
+│   ├── reports/
+│   │   ├── api_test_report.html
+│   │   ├── report.html
+│   │   ├── assets/
+│   │   │   ├── style.css
+│   ├── src/
+│   │   ├── api/
+│   │   │   ├── clients/
+│   │   │   │   ├── petstore_client.py
+│   │   │   ├── models/
+│   │   │   │   ├── pet.py
+│   │   │   ├── schemas/
+│   │   │   │   ├── pet_schema.py
+│   │   │   ├── tests/
+│   │   │   │   ├── test_petstore_behavior.py
+│   │   │   │   ├── test_pet_additional.py
+│   │   │   │   ├── test_pet_negative.py
+│   │   │   │   ├── test_pet_positive.py
+│   │   ├── data/
+│   │   │   ├── test_data.py
+│   │   │   ├── users.py
+│   │   ├── mobile/
+│   │   │   ├── android/
+│   │   │   │   ├── pytest.ini
+│   │   │   │   ├── locators/
+│   │   │   │   │   ├── crypto_exchange_locators.py
+│   │   │   │   │   ├── dashboard_locators.py
+│   │   │   │   │   ├── login_locators.py
+│   │   │   │   ├── pages/
+│   │   │   │   │   ├── base_page.py
+│   │   │   │   │   ├── crypto_exchange_page.py
+│   │   │   │   │   ├── dashboard_page.py
+│   │   │   │   │   ├── login_page.py
+│   │   │   │   ├── tests/
+│   │   │   │   │   ├── test_app_verification.py
+│   │   │   │   │   ├── test_crypto_exchange.py
+│   │   │   │   │   ├── test_smoke_mobile.py
+│   │   │   │   ├── utils/
+│   │   │   │   │   ├── appium_driver.py
+│   │   │   ├── utils/
+│   │   ├── utils/
+│   │   │   ├── config.py
+│   │   │   ├── helpers.py
+│   │   │   ├── logger.py
+│   ├── tests/

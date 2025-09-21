@@ -1,0 +1,20 @@
+# Framework de testing
+pytest
+pytest-html
+pytest-xdist
+allure-pytest
+
+# Pruebas de API
+requests==2.31.0
+jsonschema==4.19.0 
+
+# Pruebas mobile
+Appium-Python-Client
+selenium
+
+# Utilidades
+python-dotenv
+Faker
+
+# Grabación de video 
+opencv-python

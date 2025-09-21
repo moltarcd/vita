@@ -1,0 +1,13 @@
+# Environments
+venv/
+.env
+.venv/
+env/
+
+# Reports
+reports/
+allure-results/
+
+# Python
+__pycache__/
+*.pyc
